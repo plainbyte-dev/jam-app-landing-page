@@ -16,7 +16,7 @@ export default function Footer() {
                 <circle cx="16" cy="16" r="4" fill="#00E676" />
               </svg>
               <span className="font-display text-xl tracking-wider text-white">
-                KICK<span style={{ color: "#00E676" }}>OFF</span>
+                JAM<span style={{ color: "#00E676" }}>(JOIN A MATCH)</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "#4a7a50", fontWeight: 300 }}>
@@ -95,7 +95,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid rgba(0,230,118,0.06)" }}
         >
           <p className="text-xs font-mono" style={{ color: "#2a4a2e" }}>
-            © 2026 KickOff Technologies Ltd. All rights reserved.
+            © 2026 JAM (Join a Match). All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#00E676" }} />
