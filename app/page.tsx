@@ -12,8 +12,9 @@ export default function Home() {
     <main className="relative overflow-x-hidden" >
       <Cursor />
       <HeroSection />
+       <JourneySection />
       <FeaturesSection />
-      <JourneySection />
+     
       <HowItWorksSection />
       <CtaSection />
       <Footer /> 
