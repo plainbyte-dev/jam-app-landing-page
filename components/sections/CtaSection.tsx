@@ -65,7 +65,7 @@ export default function CtaSection() {
             className="flex items-center gap-2 px-8 py-3.5 rounded-xl font-medium transition-opacity duration-200 hover:opacity-90"
             style={{ background: "#00E676", color: "#060d08", fontSize: "15px" }}
           >
-            Book a Court Now <span>⚽</span>
+            Book a Court Now 
           </button>
           <button
             className="flex items-center gap-2 px-7 py-3.5 rounded-xl font-medium transition-colors duration-200"
@@ -76,7 +76,7 @@ export default function CtaSection() {
               fontSize: "15px",
             }}
           >
-            Post a Challenge <span>⚡</span>
+            Post a Challenge 
           </button>
         </div>
 

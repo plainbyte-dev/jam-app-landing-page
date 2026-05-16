@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 const STEPS = [
   {
     num: "01",
-    icon: "🔍",
     title: "Find a Venue",
     desc: "Browse 340+ verified futsal courts near you by location, surface type, or live availability.",
     tag: "Home Screen",
@@ -17,7 +16,6 @@ const STEPS = [
   },
   {
     num: "02",
-    icon: "📅",
     title: "Pick a Slot",
     desc: "See real-time slot availability. Select your date and time — slots sync instantly across all users.",
     tag: "Slot Detail",
@@ -26,7 +24,6 @@ const STEPS = [
   },
   {
     num: "03",
-    icon: "💸",
     title: "Pay via eSewa",
     desc: "Secure checkout through eSewa. Split the cost with your team or pay the full amount yourself.",
     tag: "Checkout",
@@ -35,7 +32,6 @@ const STEPS = [
   },
   {
     num: "04",
-    icon: "👥",
     title: "Open a Lobby",
     desc: "Create your game lobby, invite your squad, assign positions, and track who's confirmed.",
     tag: "Game Lobby",
@@ -44,7 +40,6 @@ const STEPS = [
   },
   {
     num: "05",
-    icon: "⚽",
     title: "Play & Earn",
     desc: "Show up, play, and earn JAM reward points redeemable for free bookings, gear, and tournaments.",
     tag: "Rewards",
@@ -163,7 +158,7 @@ export default function HowItWorksSection() {
                   {step.num}
                 </div>
 
-                <div className="text-2xl mb-3">{step.icon}</div>
+               
 
                 <h3
                   className="font-medium text-white text-sm mb-2"
