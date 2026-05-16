@@ -228,22 +228,7 @@ export default function HeroSection() {
               and get confirmed instantly — all before you finish tying your laces.
             </p>
 
-            {/* CTA Row */}
-            <div ref={ctaRef} className="opacity-0 flex flex-wrap items-center gap-4 mb-10">
-              <a href="#" className="btn-primary">
-                <span>Start Booking</span>
-                <span>⚽</span>
-              </a>
-              <a href="#" className="btn-ghost">
-                <span>Watch How It Works</span>
-                <span
-                  className="w-7 h-7 rounded-full flex items-center justify-center text-xs"
-                  style={{ background: "rgba(0,230,118,0.15)" }}
-                >
-                  ▶
-                </span>
-              </a>
-            </div>
+          
 
             {/* Stats */}
             <div ref={statsRef} className="flex items-center gap-8">
