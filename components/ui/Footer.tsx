@@ -52,11 +52,11 @@ export default function Footer() {
           {[
             {
               heading: "Platform",
-              links: ["Browse Courts", "How It Works", "Pricing", "For Venues", "Team Bookings"],
+              links: ["Browse Courts", "How It Works", "For Venues", "Team Bookings"],
             },
             {
               heading: "Company",
-              links: ["About Us", "Blog", "Careers", "Press", "Contact"],
+              links: ["About Us", "Blog", "Contact"],
             },
             {
               heading: "Legal",
