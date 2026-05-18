@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer
@@ -11,13 +11,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
-                <polygon points="16,2 30,10 30,22 16,30 2,22 2,10" fill="none" stroke="#00E676" strokeWidth="1.5" />
-                <circle cx="16" cy="16" r="4" fill="#00E676" />
-              </svg>
-              <span className="font-display text-xl tracking-wider text-white">
-                JAM<span style={{ color: "#00E676" }}>(JOIN A MATCH)</span>
-              </span>
+             
+              <div>
+                      <Image src="/jam_logo.png" alt="Logo" width={55} height={55} loading="eager" />
+                    </div>
             </div>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "#4a7a50", fontWeight: 300 }}>
               The fastest way to book futsal courts near you. Built for players who love the game.
